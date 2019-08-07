@@ -1,0 +1,520 @@
+{
+  "Flare Undead": {
+    "baseMagnitude": 0,
+    "baseDuration": 4,
+    "baseCost": 50,
+    "ingredientVar": false,
+    "potionMult": false,
+    "nameBindings": [
+      "Flare Undead"
+    ]
+  },
+
+  "Corrode Armor": {
+    "baseMagnitude": 0,
+    "baseDuration": 4,
+    "baseCost": 50,
+    "ingredientVar": false,
+    "potionMult": false,
+    "nameBindings": [
+      "Corrode Armor"
+    ]
+  },
+
+  "Exhaust": {
+    "baseMagnitude": 800,
+    "baseDuration": 1,
+    "baseCost": 0.1,
+    "ingredientVar": false,
+    "potionMult": false,
+    "nameBindings": [
+      "Exhaust"
+    ]
+  },
+
+  "Arcane Detachment": {
+    "baseMagnitude": 800,
+    "baseDuration": 1,
+    "baseCost": 0.1,
+    "ingredientVar": false,
+    "potionMult": false,
+    "nameBindings": [
+      "Arcane Detachment"
+    ]
+  },
+
+  "Paralysis": {
+    "baseMagnitude": 0,
+    "baseDuration": 1,
+    "baseCost": 400,
+    "ingredientVar": false,
+    "potionMult": false,
+    "nameBindings": [
+      "Paralysis"
+    ]
+  },
+
+  "Waterbreathing": {
+    "baseMagnitude": 0,
+    "baseDuration": 5,
+    "baseCost": 37,
+    "ingredientVar": false,
+    "potionMult": false,
+    "nameBindings": [
+      "Waterbreathing"
+    ]
+  },
+
+  "Fear": {
+    "baseMagnitude": 1.645,
+    "baseDuration": 30,
+    "baseCost": 0.8,
+    "ingredientVar":false,
+    "potionMult":true,
+    "nameBindings": [
+      "Fear"
+    ]
+  },
+
+  "Frenzy": {
+    "baseMagnitude": 1.316,
+    "baseDuration": 10,
+    "baseCost": 4.5,
+    "ingredientVar": false,
+    "potionMult": true,
+    "nameBindings": [
+      "Frenzy"
+    ]
+  },
+
+  "Invisibility": {
+    "baseMagnitude": 0,
+    "baseDuration": 5,
+    "baseCost": 60,
+    "ingredientVar": false,
+    "potionMult": false,
+    "nameBindings": [
+      "Invisibility"
+    ]
+  },
+
+  "Cure Disease": {
+    "baseMagnitude": 5,
+    "baseDuration": 0,
+    "baseCost": 5,
+    "ingredientVar": false,
+    "potionMult": false,
+    "nameBindings": [
+      "Cure Disease"
+    ]
+  },
+
+  "Cure Poison": {
+    "baseMagnitude": 100,
+    "baseDuration": 0,
+    "baseCost": 5,
+    "ingredientVar": false,
+    "potionMult": false,
+    "nameBindings": [
+      "Cure Poison"
+    ]
+  },
+  "Regenerate Health": {
+    "baseMagnitude": 1.316,
+    "baseDuration": 60,
+    "baseCost": 0.18,
+    "ingredientVar": true,
+    "potionMult": true,
+    "nameBindings": [
+      "Regenerate Health"
+    ]
+  },
+
+  "Regenerate": {
+    "baseMagnitude": 8.772,
+    "baseDuration": 60,
+    "baseCost": 0.2,
+    "ingredientVar": true,
+    "potionMult": true,
+    "nameBindings": [
+      "Regenerate Magicka",
+      "Regenerate Stamina"
+    ]
+  },
+
+  "Resist Fire": {
+    "baseMagnitude": 4.386,
+    "baseDuration": 60,
+    "baseCost": 0.6,
+    "ingredientVar": true,
+    "potionMult": true,
+    "nameBindings": [
+      "Resist Fire"
+    ]
+  },
+
+  "Resist Frost": {
+    "baseMagnitude": 4.386,
+    "baseDuration": 60,
+    "baseCost": 0.6,
+    "ingredientVar": true,
+    "potionMult": true,
+    "nameBindings": [
+      "Resist Frost"
+    ]
+  },
+
+  "Resist Shock": {
+    "baseMagnitude": 4.386,
+    "baseDuration": 60,
+    "baseCost": 0.6,
+    "ingredientVar": true,
+    "potionMult": true,
+    "nameBindings": [
+      "Resist Shock"
+    ]
+  },
+
+  "Resist Magic": {
+    "baseMagnitude": 2.193,
+    "baseDuration": 60,
+    "baseCost": 1.2,
+    "ingredientVar": true,
+    "potionMult": true,
+    "nameBindings": [
+      "Resist Magic"
+    ]
+  },
+
+  "Resist Poison": {
+    "baseMagnitude": 4.386,
+    "baseDuration": 60,
+    "baseCost": 0.3,
+    "ingredientVar": false,
+    "potionMult": false,
+    "nameBindings": [
+      "Resist Poison"
+    ]
+  },
+
+  "Restore Health": {
+    "baseMagnitude": 1.9,
+    "baseDuration": 8,
+    "baseCost": 6.6,
+    "ingredientVar": true,
+    "potionMult": true,
+    "nameBindings": [
+      "Restore Health"
+    ]
+  },
+
+  "Restore": {
+    "baseMagnitude": 2.36,
+    "baseDuration": 8,
+    "baseCost": 4.6,
+    "ingredientVar": true,
+    "potionMult": true,
+    "nameBindings": [
+      "Restore Magicka",
+      "Restore Stamina"
+    ]
+  },
+
+  "Fortify Single Skill": {
+    "baseMagnitude": 4.386,
+    "baseDuration": 60,
+    "baseCost": 0.5,
+    "ingredientVar": false,
+    "potionMult": true,
+    "nameBindings": [
+      "Fortify Alteration",
+      "Fortify Conjuration",
+      "Fortify Destruction",
+      "Fortify Illusion",
+      "Fortify Restoration",
+      "Fortify Marksman",
+      "Fortify Block",
+      "Fortify Brawler",
+      "Fortify One-handed",
+      "Fortify Two-handed"
+    ]
+  },
+
+  "Fortify Armor": {
+    "baseMagnitude": 2.193,
+    "baseDuration": 60,
+    "baseCost": 1,
+    "ingredientVar": false,
+    "potionMult": true,
+    "nameBindings": [
+      "Fortify Light Armor",
+      "Fortify Heavy Armor"
+    ]
+  },
+
+  "Fortify Double Skill": {
+    "baseMagnitude": 2.193,
+    "baseDuration": 60,
+    "baseCost": 1,
+    "ingredientVar": false,
+    "potionMult": true,
+    "nameBindings": [
+      "Weaponmaster",
+      "Guardian"
+    ]
+  },
+
+  "Fortify Barter": {
+    "baseMagnitude": 2.193,
+    "baseDuration": 300,
+    "baseCost": 0.14,
+    "ingredientVar": false,
+    "potionMult": true,
+    "nameBindings": [
+      "Forify Barter"
+    ]
+  },
+
+  "Fortify Persuasion": {
+    "baseMagnitude": 2.193,
+    "baseDuration": 300,
+    "baseCost": 0.14,
+    "ingredientVar": false,
+    "potionMult": true,
+    "nameBindings": [
+      "Fortify Persuasion"
+    ]
+  },
+
+  "Dexterity": {
+    "baseMagnitude": 4.386,
+    "baseDuration": 300,
+    "baseCost": 0.08,
+    "ingredientVar": false,
+    "potionMult": true,
+    "nameBindings": [
+      "Dexterity"
+    ]
+  },
+
+  "Fortify Carry Weight": {
+    "baseMagnitude": 8.772,
+    "baseDuration": 300,
+    "baseCost": 0.03,
+    "ingredientVar": false,
+    "potionMult": true,
+    "nameBindings": [
+      "Fortify Carry Weight"
+    ]
+  },
+
+  "Fortify Health": {
+    "baseMagnitude": 8.772,
+    "baseDuration": 60,
+    "baseCost": 0.22,
+    "ingredientVar": true,
+    "potionMult": true,
+    "nameBindings": [
+      "Fortify Health"
+    ]
+  },
+
+  "Fortify Magicka Stamina": {
+    "baseMagnitude": 13.158,
+    "baseDuration": 60,
+    "baseCost": 0.13,
+    "ingredientVar": true,
+    "potionMult": true,
+    "nameBindings": [
+      "Fortify Magicka",
+      "Fortify Stamina"
+    ]
+  },
+
+  "Damage Health": {
+    "baseMagnitude": 1.755,
+    "baseDuration": 5,
+    "baseCost": 5,
+    "ingredientVar": true,
+    "potionMult": true,
+    "nameBindings": [
+      "Damage Health"
+    ]
+  },
+
+  "Lingering Damage Health": {
+    "baseMagnitude": 0.585,
+    "baseDuration": 30,
+    "baseCost": 5,
+    "ingredientVar": false,
+    "potionMult": true,
+    "nameBindings": [
+      "Lingering Damage Health"
+    ]
+  },
+
+  "Ravage Health": {
+    "baseMagnitude": 0.2,
+    "baseDuration": 8,
+    "baseCost": 100,
+    "ingredientVar": false,
+    "potionMult": false,
+    "nameBindings": [
+     "Ravage Health"
+    ]
+  },
+
+  "Damage Magicka": {
+    "baseMagnitude": 2.632,
+    "baseDuration": 5,
+    "baseCost": 5,
+    "ingredientVar": true,
+    "potionMult": true,
+    "nameBindings": [
+      "Damage Magicka"
+    ]
+  },
+
+  "Lingering Damage Magicka": {
+    "baseMagnitude": 0.878,
+    "baseDuration": 30,
+    "baseCost": 5,
+    "ingredientVar": false,
+    "potionMult": true,
+    "nameBindings": [
+      "Lingering Damage Magicka"
+    ]
+  },
+
+  "Ravage Magicka": {
+    "baseMagnitude": 1,
+    "baseDuration": 10,
+    "baseCost": 5,
+    "ingredientVar": false,
+    "potionMult": false,
+    "nameBindings": [
+      "Ravage Magicka"
+    ]
+  },
+
+  "Damage Magicka Regen": {
+    "baseMagnitude": 300,
+    "baseDuration": 2,
+    "baseCost": 5,
+    "ingredientVar": false,
+    "potionMult": true,
+    "nameBindings": [
+      "Damage Magicka Regen"
+    ]
+  },
+
+  "Damage Stamina": {
+    "baseMagnitude": 2.632,
+    "baseDuration": 5,
+    "baseCost": 5,
+    "ingredientVar": true,
+    "potionMult": true,
+    "nameBindings": [
+      "Damage Stamina"
+    ]
+  },
+
+  "Lingering Damage Stamina": {
+    "baseMagnitude": 0.878,
+    "baseDuration": 30,
+    "baseCost": 5,
+    "ingredientVar": false,
+    "potionMult": true,
+    "nameBindings": [
+      "Lingering Damage Stamina"
+    ]
+  },
+
+  "Ravage Stamina": {
+    "baseMagnitude": 1,
+    "baseDuration": 10,
+    "baseCost": 5,
+    "ingredientVar": false,
+    "potionMult": false,
+    "nameBindings": [
+      "Ravage Stamina"
+    ]
+  },
+
+  "Damage Stamina Regen": {
+    "baseMagnitude": 300,
+    "baseDuration": 2,
+    "baseCost": 5,
+    "ingredientVar": false,
+    "potionMult": true,
+    "nameBindings": [
+      "Damage Stamina Regen"
+    ]
+  },
+
+  "Slow": {
+    "baseMagnitude": 50,
+    "baseDuration": 3,
+    "baseCost": 5,
+    "ingredientVar": false,
+    "potionMult": false,
+    "nameBindings": [
+      "Slow"
+    ]
+  },
+
+  "Weakness to Fire": {
+    "baseMagnitude": 4.386,
+    "baseDuration": 30,
+    "baseCost": 0.6,
+    "ingredientVar": true,
+    "potionMult": true,
+    "nameBindings": [
+      "Weakness to Fire"
+    ]
+  },
+
+  "Weakness to Frost": {
+    "baseMagnitude": 4.386,
+    "baseDuration": 30,
+    "baseCost": 0.6,
+    "ingredientVar": true,
+    "potionMult": true,
+    "nameBindings": [
+      "Weakness to Frost"
+    ]
+  },
+
+  "Weakness to Shock": {
+    "baseMagnitude": 4.386,
+    "baseDuration": 30,
+    "baseCost": 0.7,
+    "ingredientVar": true,
+    "potionMult": true,
+    "nameBindings": [
+    "Weakness to Shock"
+    ]
+  },
+
+  "Weakness to Magic": {
+    "baseMagnitude": 2.193,
+    "baseDuration": 30,
+    "baseCost": 2,
+    "ingredientVar": false,
+    "potionMult": true,
+    "nameBindings": [
+      "Weakness to Magic"
+    ]
+  },
+
+  "Weakness to Poison": {
+    "baseMagnitude": 2.193,
+    "baseDuration": 30,
+    "baseCost": 0.5,
+    "ingredientVar": false,
+    "potionMult": false,
+    "nameBindings": [
+      "Weakness to Poison"
+    ]
+  }
+}

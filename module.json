@@ -1,0 +1,12 @@
+{
+  "id": "zeditPatchusMaximus",
+  "name": "Patchus Maximus",
+  "author": "SkeeverBrain",
+  "version": "1.0",
+  "released": "N/A",
+  "updated": "8/6/2019",
+  "description": "Patchus Maximus, as implemented in zEdit.",
+  "requires": ["unifiedPatchingFramework"],
+  "moduleLoader": "UPF",
+  "canHotLoad": true
+}

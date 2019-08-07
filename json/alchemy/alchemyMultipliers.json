@@ -1,0 +1,200 @@
+{
+  "Tier1": {
+    "magnitudeMult": 4.25,
+    "durationMult": 1,
+    "nameBindings":[
+      "Minor",
+      "Lingering Magicka Poison",
+      "Lingering Stamina Poison"
+    ]
+  },
+  "Tier2": {
+    "magnitudeMult": 6,
+    "durationMult": 1,
+    "nameBindings":[
+      "Weak",
+      "Potion of Alteration",
+      "Potion of Haggling",
+      "Potion of the Defender",
+      "Potion of the Guardian",
+      "Potion of Strength",
+      "Conjurer's Potion",
+      "Potion of Destruction",
+      "Brawler's Potion",
+      "Potion of the Knight",
+      "Potion of Illusion",
+      "Skirmisher's Potion'",
+      "Potion of True Shot",
+      "Potion of the Warrior",
+      "Potion of Glibness",
+      "Potion of Dexterity",
+      "Potion of the Healer",
+      "Weaponmaster's Potion",
+      "Potion of Light Feet",
+      "Potion of the Berserker",
+      "Potion of Regeneration",
+      "Potion of Lasting Potency",
+      "Potion of Vigor",
+      "Enduring",
+      "Potion of Resist Fire",
+      "Potion of Resist Cold",
+      "Potion of Resist Magic",
+      "Potion of Resist Shock",
+      "Potion of Healing",
+      "Potion of Stamina",
+      "Potion of Magicka",
+      "Potion of Plunder",
+      "Potion of Conflict",
+      "Potion of Larceny",
+      "Potion of Keenshot",
+      "Potion of Escape",
+      "Potion of Health",
+      "Potion of Extra Magicka",
+      "Potion of Enhanced Stamina",
+      "Poi",
+      "ver"
+    ]
+  },
+  "Tier3": {
+    "magnitudeMult": 7.8,
+    "durationMult": 1,
+    "nameBindings": [
+      "Extended",
+      "Draught",
+      "Plentiful",
+      "Potent",
+      "Lasting",
+      "Draught of Lasting Potency"
+    ]
+  },
+  "Tier3.5": {
+    "magnitudeMult": 8.2,
+    "durationMult": 1,
+    "nameBindings": [
+      "Solution",
+      "Solution of Lasting Potency"
+    ]
+  },
+  "Tier4": {
+    "magnitudeMult": 9.6,
+    "durationMult": 1,
+    "nameBindings": [
+      "Philter",
+      "Philter of Lasting Potency",
+      "Potion of Vigorous",
+      "Virulent",
+      "Malign",
+      "Persisting"
+    ]
+  },
+  "Tier5": {
+    "magnitudeMult": 11.4,
+    "durationMult": 1,
+    "nameBindings": [
+      "Prolonged",
+      "Elixir",
+      "Elixir of Lasting Potency",
+      "Extreme",
+      "Deadly",
+      "Unceasing"
+    ]
+  },
+  "Tier6": {
+    "magnitudeMult": 15.96,
+    "durationMult": 1.2,
+    "nameBindings": [
+      "Grand Elixir"
+    ]
+  },
+  "Tier7": {
+    "magnitudeMult": 17,
+    "durationMult": 1.25,
+    "nameBindings": [
+      "Prime Elixir"
+    ]
+  },
+  "DamageRegen1": {
+    "magnitudeMult": 1,
+    "durationMult": 3,
+    "nameBindings": [
+      "Weak Recovery Poison",
+      "Weak Vigor Poison"
+    ]
+  },
+  "DamageRegen2": {
+    "magnitudeMult": 1,
+    "durationMult": 5,
+    "nameBindings": [
+      "Magicka Recovery Poison",
+      "Vigor Poison"
+    ]
+  },
+  "DamageRegen3": {
+    "magnitudeMult": 1,
+    "durationMult": 7,
+    "nameBindings": [
+      "Potent Recovery Poison",
+      "Potent Vigor Poison"
+    ]
+  },
+  "DamageRegen4": {
+    "magnitudeMult": 1,
+    "durationMult": 9,
+    "nameBindings": [
+      "Malign Recovery Poison",
+      "Malign Vigor Poison"
+    ]
+  },
+  "DamageRegen5": {
+    "magnitudeMult": 1,
+    "durationMult": 10,
+    "nameBindings": [
+      "Deadly Recovery Poison"
+    ]
+  },
+  "MindAffecting1": {
+    "magnitudeMult": 8,
+    "durationMult" :0.7,
+    "nameBindings": [
+      "Weak Fear Poison",
+      "Weak Frenzy Poison"
+    ]
+  },
+  "MindAffecting2": {
+    "magnitudeMult": 12.2,
+    "durationMult": 1,
+    "nameBindings": [
+      "Fear Poison",
+      "Frenzy Poison"
+    ]
+  },
+  "MindAffecting3": {
+    "magnitudemult": 18.3,
+    "durationMult": 1,
+    "nameBindings": [
+      "Potent Fear Poison",
+      "Potent Frenzy Poison"
+    ]
+  },
+  "MindAffecting4": {
+    "magnitudeMult": 24.4,
+    "durationMult": 1,
+    "nameBindings": [
+      "Virulent Fear Poison",
+      "Virulent Frenzy Poison"
+    ]
+  },
+  "MindAffecting5": {
+    "magnitudeMult": 30.5,
+    "durationMult": 1,
+    "nameBindings": [
+      "Deadly Fear Poison",
+      "Deadly Frenzy Poison"
+    ]
+  },
+  "UltimateRestore": {
+    "magnitudeMult": 30.5,
+    "durationMult": 1,
+    "nameBindings":[]
+  }
+}
