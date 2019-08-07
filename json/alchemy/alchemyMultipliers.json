@@ -2,17 +2,19 @@
   "Tier1": {
     "magnitudeMult": 4.25,
     "durationMult": 1,
-    "nameBindings":[
-      "Minor",
+    "nameBindings": [
       "Lingering Magicka Poison",
       "Lingering Stamina Poison"
+    ],
+    "namePartials": [
+      "Minor",
+      "Weak"
     ]
   },
   "Tier2": {
     "magnitudeMult": 6,
     "durationMult": 1,
-    "nameBindings":[
-      "Weak",
+    "nameBindings": [
       "Potion of Alteration",
       "Potion of Haggling",
       "Potion of the Defender",
@@ -35,7 +37,6 @@
       "Potion of Regeneration",
       "Potion of Lasting Potency",
       "Potion of Vigor",
-      "Enduring",
       "Potion of Resist Fire",
       "Potion of Resist Cold",
       "Potion of Resist Magic",
@@ -51,49 +52,60 @@
       "Potion of Health",
       "Potion of Extra Magicka",
       "Potion of Enhanced Stamina",
-      "Poi",
-      "ver"
+      "Poison"
+    ],
+    "namePartials": [
+      "Aversion",
+      "Enduring"
     ]
   },
   "Tier3": {
     "magnitudeMult": 7.8,
     "durationMult": 1,
     "nameBindings": [
+      "Draught of Lasting Potency"
+    ],
+    "namePartials": [
       "Extended",
       "Draught",
       "Plentiful",
       "Potent",
-      "Lasting",
-      "Draught of Lasting Potency"
+      "Lasting"
     ]
   },
   "Tier3.5": {
     "magnitudeMult": 8.2,
     "durationMult": 1,
     "nameBindings": [
-      "Solution",
       "Solution of Lasting Potency"
+    ],
+    "namePartials": [
+      "Solution"
     ]
   },
   "Tier4": {
     "magnitudeMult": 9.6,
     "durationMult": 1,
     "nameBindings": [
+      "Philter of Lasting Potency"
+    ],
+    "namePartials":[
       "Philter",
-      "Philter of Lasting Potency",
-      "Potion of Vigorous",
       "Virulent",
       "Malign",
-      "Persisting"
+      "Persisting",
+      "Potion of Vigorous"
     ]
   },
   "Tier5": {
     "magnitudeMult": 11.4,
     "durationMult": 1,
     "nameBindings": [
+      "Elixir of Lasting Potency"
+    ],
+    "namePartials":[
       "Prolonged",
       "Elixir",
-      "Elixir of Lasting Potency",
       "Extreme",
       "Deadly",
       "Unceasing"
@@ -102,14 +114,16 @@
   "Tier6": {
     "magnitudeMult": 15.96,
     "durationMult": 1.2,
-    "nameBindings": [
+    "nameBindings": [],
+    "namePartials":[
       "Grand Elixir"
     ]
   },
   "Tier7": {
     "magnitudeMult": 17,
     "durationMult": 1.25,
-    "nameBindings": [
+    "nameBindings": [],
+    "namePartials":[
       "Prime Elixir"
     ]
   },
@@ -119,7 +133,8 @@
     "nameBindings": [
       "Weak Recovery Poison",
       "Weak Vigor Poison"
-    ]
+    ],
+    "namePartials":[]
   },
   "DamageRegen2": {
     "magnitudeMult": 1,
@@ -127,7 +142,8 @@
     "nameBindings": [
       "Magicka Recovery Poison",
       "Vigor Poison"
-    ]
+    ],
+    "namePartials":[]
   },
   "DamageRegen3": {
     "magnitudeMult": 1,
@@ -135,7 +151,8 @@
     "nameBindings": [
       "Potent Recovery Poison",
       "Potent Vigor Poison"
-    ]
+    ],
+    "namePartials":[]
   },
   "DamageRegen4": {
     "magnitudeMult": 1,
@@ -143,14 +160,16 @@
     "nameBindings": [
       "Malign Recovery Poison",
       "Malign Vigor Poison"
-    ]
+    ],
+    "namePartials":[]
   },
   "DamageRegen5": {
     "magnitudeMult": 1,
     "durationMult": 10,
     "nameBindings": [
       "Deadly Recovery Poison"
-    ]
+    ],
+    "namePartials":[]
   },
   "MindAffecting1": {
     "magnitudeMult": 8,
@@ -158,7 +177,8 @@
     "nameBindings": [
       "Weak Fear Poison",
       "Weak Frenzy Poison"
-    ]
+    ],
+    "namePartials":[]
   },
   "MindAffecting2": {
     "magnitudeMult": 12.2,
@@ -166,7 +186,8 @@
     "nameBindings": [
       "Fear Poison",
       "Frenzy Poison"
-    ]
+    ],
+    "namePartials":[]
   },
   "MindAffecting3": {
     "magnitudemult": 18.3,
@@ -174,7 +195,8 @@
     "nameBindings": [
       "Potent Fear Poison",
       "Potent Frenzy Poison"
-    ]
+    ],
+    "namePartials":[]
   },
   "MindAffecting4": {
     "magnitudeMult": 24.4,
@@ -182,7 +204,8 @@
     "nameBindings": [
       "Virulent Fear Poison",
       "Virulent Frenzy Poison"
-    ]
+    ],
+    "namePartials":[]
   },
   "MindAffecting5": {
     "magnitudeMult": 30.5,
@@ -190,11 +213,13 @@
     "nameBindings": [
       "Deadly Fear Poison",
       "Deadly Frenzy Poison"
-    ]
+    ],
+    "namePartials":[]
   },
   "UltimateRestore": {
     "magnitudeMult": 30.5,
     "durationMult": 1,
-    "nameBindings":[]
+    "nameBindings":[],
+    "namePartials":[]
   }
 }

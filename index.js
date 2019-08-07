@@ -1,6 +1,7 @@
 /* global xelib, modulePath, registerPatcher, patcherUrl, fh */
 
 //=require src/common/utilityMethods.js
+//=require src/subpatchers/alchemyPatcher.js
 
 const getActiveModules = (helpers, locals) => {
     const modulePrefix = "PerkusMaximus_";
@@ -39,29 +40,8 @@ registerPatcher({
       locals.playerFormID = '00000007';
       locals.playerRefFormID = '00000014';
     },
-    process: [{
-      load:{
-        //Alchemy patching section
-        signature: 'ALCH',
-        filter: function(alch) {
-          let alchFlags = xelib.GetEnabledFlags(alch, "ENIT\\Flags");
-          return !alchFlags.includes("Food Item") && !isPotionExcluded(xelib.EditorID(alch)) && locals.useThief;
-        }
-      },
-      patch: function(alch) {
-        if(xelib.HasElement(alch, "Effects\\Effect\\EFID")) {
-          let effectList = xelib.GetElements(alch, "Effects", false);
-          effectList.forEach( effect => {
-            helpers.logMessage("Individual Effect: " + effect);
-            let alchEffect = getWinningLink(effect, "EFID");
-            let newEffect = xelib.CopyElement(alchEffect, patchFile);
-            removeMagicSchool(newEffect);
-          });
-        //TODO: Add switch/case statement for multiple language support.
-        let alchRecord = xelib.CopyElement(xelib.GetWinningOverride(alch), patchFile);
-        patchPotion(alchRecord);
-        }
-      }
-    }],
+    process: [
+      alchemyPatcher(helpers, locals, patchFile)
+    ],
   })
 });
