@@ -1,0 +1,211 @@
+{
+  "Common": {
+    "factorArmor": 1.0,
+    "factorValue": 1.0,
+    "factorWeight": 1.0,
+    "nameBindings": [
+      "Common"
+    ]
+  },
+  "Dented": {
+    "factorArmor": 0.95,
+    "factorValue": 0.9,
+    "factorWeight": 1.0,
+    "nameBindings": [
+      "Dented"
+    ]
+  },
+  "Broken": {
+    "factorArmor": 0.25,
+    "factorValue": 0.1,
+    "factorWeight": 0.75,
+    "nameBindings": [
+      "Broken",
+      "Damaged"
+    ]
+  },
+  "Worn": {
+    "factorArmor": 0.9,
+    "factorValue": 0.85,
+    "factorWeight": 1.0,
+    "nameBindings": [
+      "Worn"
+    ]
+  },
+  "Thin": {
+    "factorArmor": 0.9,
+    "factorValue": 0.9,
+    "factorWeight": 0.9,
+    "nameBindings": [
+      "Thin"
+    ]
+  },
+  "Old": {
+    "factorArmor": 0.95,
+    "factorValue": 0.95,
+    "factorWeight": 1.05,
+    "nameBindings": [
+      "Old",
+      "Primitive"
+    ]
+  },
+  "Raddled": {
+    "factorArmor": 0.7,
+    "factorValue": 0.7,
+    "factorWeight": 1.1,
+    "nameBindings": [
+      "Charred",
+      "Raddled"
+    ]
+  },
+  "Ragged": {
+    "factorArmor": 0.6,
+    "factorValue": 0.5,
+    "factorWeight": 1.2,
+    "nameBindings": [
+      "Ragged"
+    ]
+  },
+  "Quality": {
+    "factorArmor": 1.3,
+    "factorValue": 1.5,
+    "factorWeight": 0.9,
+    "nameBindings": [
+      "[Quality]"
+    ]
+  },
+  "Reforged": {
+    "factorArmor": 1.15,
+    "factorValue": 1.1,
+    "factorWeight": 0.8,
+    "nameBindings": [
+      "Reforged",
+      "Fortified",
+      "Heroes"
+    ]
+  },
+  "Warforged": {
+    "factorArmor": 1.3,
+    "factorValue": 2.0,
+    "factorWeight": 0.7,
+    "nameBindings": [
+      "Warforged"
+    ]
+  },
+  "Superior": {
+    "factorArmor": 1.35,
+    "factorValue": 1.15,
+    "factorWeight": 1.1,
+    "nameBindings": [
+      "Superior"
+    ]
+  },
+  "Exceptional": {
+    "factorArmor": 1.4,
+    "factorValue": 1.15,
+    "factorWeight": 1.1,
+    "nameBindings": [
+      "Exceptional"
+    ]
+  },
+  "Old God": {
+    "factorArmor": 1.1,
+    "factorValue": 1.1,
+    "factorWeight": 0.9,
+    "nameBindings": [
+      "Old God"
+    ]
+  },
+  "Veteran": {
+    "factorArmor": 1.1,
+    "factorValue": 0.95,
+    "factorWeight": 1.0,
+    "nameBindings": [
+      "Veteran"
+    ]
+  },
+  "Fine": {
+    "factorArmor": 1.05,
+    "factorValue": 1.05,
+    "factorWeight": 0.9,
+    "nameBindings": [
+      "Fine",
+      "Chieftan",
+      "Improved"
+    ]
+  },
+  "Gilded": {
+    "factorArmor": 1.1,
+    "factorValue": 1.05,
+    "factorWeight": 1.05,
+    "nameBindings": [
+      "Gilded"
+    ]
+  },
+  "Thick": {
+    "factorArmor": 1.1,
+    "factorValue": 1.1,
+    "factorWeight": 1.1,
+    "nameBindings": [
+      "Thick",
+      "Armored",
+      "Padded",
+      "Midweight"
+    ]
+  },
+  "Officer": {
+    "factorArmor": 1.15,
+    "factorValue": 1.0,
+    "factorWeight": 1.0,
+    "nameBindings": [
+      "Perfect",
+      "Officer"
+    ]
+  },
+  "Lord": {
+    "factorArmor": 1.15,
+    "factorValue": 1.1,
+    "factorWeight": 0.8,
+    "nameBindings": [
+      "Lords"
+    ]
+  },
+  "Noble": {
+    "factorArmor": 1.1,
+    "factorValue": 1.05,
+    "factorWeight": 0.85,
+    "nameBindings": []
+  },
+  "Overlord": {
+    "factorArmor": 1.2,
+    "factorValue": 1.15,
+    "factorWeight": 0.75,
+    "nameBindings": [
+      "Overlord"
+    ]
+  },
+  "Commander": {
+    "factorArmor": 1.2,
+    "factorValue": 1.1,
+    "factorWeight": 0.95,
+    "nameBindings": [
+      "Commander"
+    ]
+  },
+  "Alduin": {
+    "factorArmor": 1.1,
+    "factorValue": 1.25,
+    "factorWeight": 1.1,
+    "nameBindings": [
+      "Alduin"
+    ]
+  },
+  "Reinforced": {
+    "factorArmor": 1.15,
+    "factorValue": 1.1,
+    "factorWeight": 1.2,
+    "nameBindings": [
+      "Reinforced"
+    ]
+  }
+}

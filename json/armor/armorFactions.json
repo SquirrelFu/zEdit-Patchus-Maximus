@@ -1,0 +1,94 @@
+{
+  "Bandit": [
+    "Bandit",
+    "Fur Armor",
+    "Fur Bracers",
+    "Fur Kilt",
+    "Fur Helmet",
+    "Fur Shoes",
+    "Fur Pant"
+  ],
+  "Cultist": [
+    "Cultist"
+  ],
+  "Dawnguard": [
+    "Dawnguard Armor",
+    "Dawnguard Boots",
+    "Dawnguard Full",
+    "Dawnguard Boots",
+    "Dawnguard Light Armor",
+    "Dawnguard Light Boots",
+    "Dawnguard Light Helmet",
+    "Dawnguard Light Gauntlets"
+  ],
+  "Falmer": [
+    "Falmer Helmet",
+    "Falmer Armor",
+    "Falmer Boots",
+    "Falmer Bracers",
+    "Falmer Heavy Armor",
+    "Falmer Heavy Boots",
+    "Falmer Heavy Bracers",
+    "Falmer Heavy Helm",
+    "Falmer Hardened Armor",
+    "Falmer Hardened Boots",
+    "Falmer Hardened Bracers",
+    "Falmer Hardened Helm",
+    "Falmer Shaman",
+    "Shellbug Helmet"
+  ],
+  "Forsworn": [
+    "Forsworn Boots",
+    "Forsworn Armor",
+    "Forsworn Headdress",
+    "Forsworn Gauntlets",
+    "Armor of the Old Gods",
+    "Helmet of the Old Gods",
+    "Gauntlets of the Old Gods",
+    "Boots of the Old Gods"
+  ],
+  "Imperial": [
+    "Imperial Light Armor",
+    "Imperial Light Boots",
+    "Imperial Light Bracers",
+    "Imperial Light Helmet",
+    "Imperial Crested",
+    "Imperial Studded",
+    "Studded Imperial",
+    "Imperial Tattered",
+    "Imperial Officer's",
+    "Imperial General's",
+    "Penitus",
+    "General",
+    "Legate",
+    "Imperial Outcast"
+  ],
+  "Stormcloak": [
+    "Stormcloak Cuirass",
+    "Stormcloak Helmet",
+    "Stormcloak Officer",
+    "Fur Gauntlets",
+    "Fur Boots",
+    "Fur Guard's",
+    "Eastmarch Guard's",
+    "Reinforced Guard Boots",
+    "Reinforced Guard Gauntlets",
+    "Fitted Guard Boots",
+    "Fitted Guard Gauntlets",
+    "Ulfric's Boots",
+    "Ulfric's Bracers",
+    "Ulfric's Armor",
+    "Gloves of the Pugilist"
+  ],
+  "Thalmor": [
+    "Thalmor"
+  ],
+  "Vampire": [
+    "Vampire Armor",
+    "Vampire Boots",
+    "Vampire Gauntlets",
+    "Vampire Hood",
+    "Vampire Royal",
+    "Vampire Lord"
+  ]
+}

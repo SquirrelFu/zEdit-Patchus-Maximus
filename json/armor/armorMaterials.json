@@ -1,0 +1,1134 @@
+{
+  "AdvancedLight": {
+    "armorBase": 16,
+    "type": "Light",
+    "meltdownMat": "Advanced",
+    "temperMat": "Advanced",
+    "nameBindings": []
+  },
+  "Advanced": {
+    "armorBase": 24,
+    "type": "Heavy",
+    "meltdownMat": "Advanced",
+    "temperMat": "Advanced"
+  },
+  "BonemoldLight": {
+    "armorBase": 18,
+    "type": "Light",
+    "meltdownMat": "Bonemeal",
+    "temperMat": "Bonemeal",
+    "nameBindings": [
+      "HB_BoneArmor"
+    ]
+  },
+  "BonemoldMedium": {
+    "armorBase": 25,
+    "type": "Both",
+    "meltdownMat": "Bonemeal",
+    "temperMat": "Bonemeal",
+    "nameBindings": []
+  },
+  "BonemoldLow": {
+    "armorBase": 32,
+    "type": "Heavy",
+    "meltdownMat": "Bonemeal",
+    "temperMat": "Bonemeal",
+    "nameBindings": []
+  },
+  "Bonemold": {
+    "armorBase": 33,
+    "type": "Heavy",
+    "meltdownMat": "Bonemeal",
+    "temperMat": "Bonemeal",
+    "nameBindings": [
+      "DLC2ArmorBonemoldBoots",
+      "DLC2ArmorBonemoldBootsCuirass",
+      "DLC2ArmorBonemoldBootsGauntlets",
+      "DLC2ArmorBonemoldBootsHelmet",
+      "DLC2ArmorBonemoldBootsShield",
+      "DLC2EnchArmorBonemoldBoots",
+      "DLC2EnchArmorBonemoldBootsCuirass",
+      "DLC2EnchArmorBonemoldBootsGauntlets",
+      "DLC2EnchArmorBonemoldBootsHelmet",
+      "DLC2EnchArmorBonemoldBootsShield"
+    ]
+  },
+  "BonemoldHigh": {
+    "armorBase": 34,
+    "type": "Heavy",
+    "meltdownMat": "Bonemeal",
+    "temperMat": "Bonemeal",
+    "nameBindings": [
+      "DLC2ArmorBonemoldImproved"
+    ]
+  },
+  "ChitinLight": {
+    "armorBase": 25,
+    "type": "Light",
+    "meltdownMat": "Chitin",
+    "temperMat": "Chitin",
+    "nameBindings": [
+      "DLC2ArmorChitinLight",
+      "DLC2EnchArmorChitinLight"
+    ]
+  },
+  "Chitin": {
+    "armorBase": 39,
+    "type": "Heavy",
+    "meltdownMat": "Chitin",
+    "temperMat": "Chitin",
+    "nameBindings": [
+      "DLC2ArmorChitinHeavy",
+      "DLC2EnchArmorChitinHeavy"
+    ]
+  },
+  "Clothing": {
+    "armorBase": 0,
+    "type": "Clothing",
+    "meltdownMat": "None",
+    "temperMat": "None",
+    "nameBindings": [
+      "DLC2ClothesSkaal",
+      "DLC2DarkElfOutfit",
+      "DLC2DarkElfShoes",
+      "DLC2ClothesFine",
+      "DLC2ClothesCultist",
+      "DLC2Cultist",
+      "ArmorDragonPriestMaskMoonstoneHelmet"
+    ]
+  },
+  "Zero_Dwarven": {
+    "armorBase": 0,
+    "type": "Clothing",
+    "meltdownMat": "Dwarven",
+    "temperMat": "Dwarven",
+    "nameBindings": []
+  },
+  "Zero_Fur": {
+    "armorBase": 0,
+    "type": "Clothing",
+    "meltdownMat": "Fur",
+    "temperMat": "Fur",
+    "nameBindings": []
+  },
+  "Zero_Gold": {
+    "armorBase": 0,
+    "type": "Clothing",
+    "meltdownMat": "Gold",
+    "temperMat": "Gold",
+    "nameBindings": []
+  },
+  "Zero_Iron": {
+    "armorBase": 0,
+    "type": "Clothing",
+    "meltdownMat": "Iron",
+    "temperMat": "Iron",
+    "nameBindings": []
+  },
+  "PauldronL": {
+    "armorBase": 1,
+    "type": "Clothing",
+    "meltdownMat": "Leather",
+    "temperMat": "Leather",
+    "nameBindings": []
+  },
+  "Pauldron": {
+    "armorBase": 3,
+    "type": "Clothing",
+    "meltdownMat": "Leather",
+    "temperMat": "Leather",
+    "nameBindings": []
+  },
+  "Zero_Silver": {
+    "armorBase": 0,
+    "type": "Clothing",
+    "meltdownMat": "Silver",
+    "temperMat": "Silver",
+    "nameBindings": []
+  },
+  "Zero_Daedric": {
+    "armorBase": 0,
+    "type": "Clothing",
+    "meltdownMat": "Daedric",
+    "temperMat": "Daedric",
+    "nameBindings": []
+  },
+  "Zero_Dragonplate": {
+    "armorBase": 0,
+    "type": "Clothing",
+    "meltdownMat": "Dragonplate",
+    "temperMat": "Dragonplate",
+    "nameBindings": []
+  },
+  "Zero_Dragonscale": {
+    "armorBase": 0,
+    "type": "Clothing",
+    "meltdownMat": "Dragonscale",
+    "temperMat": "Dragonscale",
+    "nameBindings": []
+  },
+  "DaedricLight": {
+    "armorBase": 41,
+    "type": "Light",
+    "meltdownMat": "Daedric",
+    "temperMat": "Daedric",
+    "nameBindings": [
+      "DLC2HKMiraakMask1L",
+      "DLC2HKMiraakMask2L",
+      "DLC2HKMiraakMask3L",
+      "xMAEasterEggMaskNerjal"
+    ]
+  },
+  "DaedricLow": {
+    "armorBase": 59,
+    "type": "Heavy",
+    "meltdownMat": "Daedric",
+    "temperMat": "Daedric",
+    "nameBindings": []
+  },
+  "Daedric": {
+    "armorBase": 60,
+    "type": "Heavy",
+    "meltdownMat": "Daedric",
+    "temperMat": "Daedric",
+    "nameBindings": [
+      "ArmorDaedric",
+       "ClavicusVileMask"
+    ]
+  },
+  "DaedricHigh": {
+    "armorBase": 61,
+    "type": "Heavy",
+    "meltdownMat": "Daedric",
+    "temperMat": "Daedric",
+    "nameBindings": [
+      "DLC2HKMiraakMask1H",
+      "DLC2HKMiraakMask2H",
+      "DLC2HKMiraakMask3H"
+    ]
+  },
+  "DragonplateLow": {
+    "armorBase": 54,
+    "type": "Heavy",
+    "meltdownMat": "Dragonplate",
+    "temperMat": "Dragonplate",
+    "nameBindings": []
+  },
+  "Dragonplate": {
+    "armorBase": 55,
+    "type": "Heavy",
+    "meltdownMat": "Dragonplate",
+    "temperMat": "Dragonplate",
+    "nameBindings": [
+      "ArmorDragonplate"
+    ]
+  },
+  "DragonplateHigh": {
+    "armorBase": 56,
+    "type": "Heavy",
+    "meltdownMat": "Dragonplate",
+    "temperMat": "Dragonplate",
+    "nameBindings": [
+      "ArmorDragonPriestMaskUltraHelmet"
+    ]
+  },
+  "DragonscaleOne": {
+    "armorBase": 2,
+    "type": "Light",
+    "meltdownMat": "Dragonscale",
+    "temperMat": "Dragonscale",
+    "nameBindings": []
+  },
+  "DragonscaleLow": {
+    "armorBase": 39,
+    "type": "Light",
+    "meltdownMat": "Dragonscale",
+    "temperMat": "Dragonscale",
+    "nameBindings": []
+  },
+  "Dragonscale": {
+    "armorBase": 40,
+    "type": "Light",
+    "meltdownMat": "Dragonscale",
+    "temperMat": "Dragonscale",
+    "nameBindings": [
+      "ArmorDragonscale"
+    ]
+  },
+  "DragonscaleHigh": {
+    "armorBase": 41,
+    "type": "Light",
+    "meltdownMat": "Dragonscale",
+    "temperMat": "Dragonscale",
+    "nameBindings": []
+  },
+  "DwarvenLight": {
+    "armorBase": 23,
+    "type": "Light",
+    "meltdownMat": "Dwarven",
+    "temperMat": "Dwarven",
+    "nameBindings": []
+  },
+  "DwarvenLow": {
+    "armorBase": 36,
+    "type": "Heavy",
+    "meltdownMat": "Dwarven",
+    "temperMat": "Dwarven",
+    "nameBindings": []
+  },
+  "Dwarven": {
+    "armorBase": 37,
+    "type": "Heavy",
+    "meltdownMat": "Dwarven",
+    "temperMat": "Dwarven",
+    "nameBindings": [
+      "ArmorDwarven",
+      "DA13Spellbreaker"
+    ]
+  },
+  "DwarvenHigh": {
+    "armorBase": 38,
+    "type": "Heavy",
+    "meltdownMat": "Dwarven",
+    "temperMat": "Dwarven",
+    "nameBindings": [
+      "DLC1LD_AetherialCrown",
+      "DLC1LD_AetherialShield"
+    ]
+  },
+  "EbonyLight": {
+    "armorBase": 32,
+    "type": "Light",
+    "meltdownMat": "Ebony",
+    "temperMat": "Ebony",
+    "nameBindings": []
+  },
+  "EbonyLow": {
+    "armorBase": 46,
+    "type": "Heavy",
+    "meltdownMat": "Ebony",
+    "temperMat": "Ebony",
+    "nameBindings": []
+  },
+  "Ebony": {
+    "armorBase": 47,
+    "type": "Heavy",
+    "meltdownMat": "Ebony",
+    "temperMat": "Ebony",
+    "nameBindings": [
+      "DLC2dunKolbjornCuirass",
+      "DLC2dunKolbjornGauntlets",
+      "DLC2dunKolbjornHelm",
+      "DLC2AcolyteMaskFire",
+      "DLC2dunFahlbtharzDwarvenHelmet",
+      "ArmorEbony",
+      "DA02Armor"
+    ]
+  },
+  "EbonyHigh": {
+    "armorBase": 48,
+    "type": "Heavy",
+    "meltdownMat": "Ebony",
+    "temperMat": "Ebony",
+    "nameBindings": [
+      "DLC2AcolyteMaskShock",
+      "ArmorDragonPriestMaskEbonyHelmet"
+    ]
+  },
+  "ElvenLow": {
+    "armorBase": 22,
+    "type": "Light",
+    "meltdownMat": "Elven",
+    "temperMat": "Elven",
+    "nameBindings": []
+  },
+  "Elven": {
+    "armorBase": 23,
+    "type": "Light",
+    "meltdownMat": "Elven",
+    "temperMat": "Elven",
+    "nameBindings": [
+      "ArmorElven"
+    ]
+  },
+  "ElvenHigh": {
+    "armorBase": 24,
+    "type": "Light",
+    "meltdownMat": "Elven",
+    "temperMat": "Elven",
+    "nameBindings": [
+      "ArmorDragonPriestMaskBronzeHelmet"
+    ]
+  },
+  "ElvenHeavy": {
+    "armorBase": 37,
+    "type": "Heavy",
+    "meltdownMat": "Elven",
+    "temperMat": "Elven",
+    "nameBindings": []
+  },
+  "LightFactionLow": {
+    "armorBase": 15,
+    "type": "Light",
+    "meltdownMat": "Leather",
+    "temperMat": "Leather",
+    "nameBindings": [
+      "DBArmor",
+      "DBArmorBoots",
+      "DBArmorHelmet",
+      "DBArmorHelmetMaskLess",
+      "DBArmorGloves",
+      "ArmorThievesGuild",
+      "DBArmorGlovesReward"
+    ]
+  },
+  "LightFaction": {
+    "armorBase": 22,
+    "type": "Light",
+    "meltdownMat": "Leather",
+    "temperMat": "Leather",
+    "nameBindings": [
+      "DLC2TGArmorVariant",
+      "DLC1ArmorDawnguardCuirassLight",
+      "DLC1ArmorDawnguardBootsLight",
+      "DLC1ArmorDawnguardGauntletsLight",
+      "DLC1ArmorDawnguardHelmetLight",
+      "ArmorImperialLight",
+      "ArmorImperialStudded",
+      "ArmorEastmarch",
+      "ArmorGuard",
+      "ArmorNightingale"
+    ]
+  },
+  "LightFactionS": {
+    "armorBase": 22,
+    "type": "Light",
+    "meltdownMat": "Steel",
+    "temperMat": "Steel",
+    "nameBindings": [
+      "DLC1DawnguardRuneShield"
+    ]
+  },
+  "LightFactionHigh": {
+    "armorBase": 29,
+    "type": "Light",
+    "meltdownMat": "Leather",
+    "temperMat": "Leather",
+    "nameBindings": [
+      "DBArmorSP",
+      "DBArmorBootsSP",
+      "DBArmorGlovesSP",
+      "DBArmorHelmetSP",
+      "ArmorLinwe",
+      "ArmorPenitus",
+      "MS06Shield"
+    ]
+  },
+  "Tong": {
+    "armorBase": 32,
+    "type": "Light",
+    "meltdownMat": "Leather",
+    "temperMat": "Leather",
+    "nameBindings": [
+      "DLC2MoragTong"
+    ]
+  },
+  "HeavyFactionLow": {
+    "armorBase": 38,
+    "type": "Heavy",
+    "meltdownMat": "Steel",
+    "temperMat": "Steel",
+    "nameBindings": []
+  },
+  "HeavyFaction": {
+    "armorBase": 44,
+    "type": "Heavy",
+    "meltdownMat": "Steel",
+    "temperMat": "Steel",
+    "nameBindings": [
+      "DLC1ArmorDawnguardCuirassHeavy",
+      "DLC1ArmorDawnguardBootsHeavy",
+      "DLC1ArmorDawnguardGauntletsHeavy",
+      "DLC1ArmorDawnguardHelmetHeavy",
+      "ArmorImperialHelmet",
+      "ArmorImperialGauntlets",
+      "ArmorImperialCuirass",
+      "ArmorImperialBoots",
+      "ArmorImperialShield",
+      "ArmorBlades",
+      "ArmorCompanions"
+    ]
+  },
+  "HTong": {
+    "armorBase": 47,
+    "type": "Heavy",
+    "meltdownMat": "Steelplate",
+    "temperMat": "Steelplate",
+    "nameBindings": [
+      "GeneralTulliusArmor"
+    ]
+  },
+  "Falmer": {
+    "armorBase": 30,
+    "type": "Light",
+    "meltdownMat": "Falmer",
+    "temperMat": "Falmer",
+    "nameBindings": [
+      "ArmorFalmerCuirass",
+      "ArmorFalmerBoots",
+      "ArmorFalmerGauntlets",
+      "ArmorFAlmerHelmet"
+    ]
+  },
+  "Ancient Falmer": {
+    "armorBase": 32,
+    "type": "Light",
+    "meltdownMat": "Elven",
+    "temperMat": "Elven",
+    "nameBindings": [
+      "DLC1Ivory",
+      "DLC1ArmorAurielsShield"
+    ]
+  },
+  "Falmer Hardened": {
+    "armorBase": 37,
+    "type": "Heavy",
+    "meltdownMat": "Falmer",
+    "temperMat": "Falmer",
+    "nameBindings": [
+      "ArmorFalmerHardened",
+      "ArmorFAlmerHardened"
+    ]
+  },
+  "Falmer Heavy": {
+    "armorBase": 51,
+    "type": "Heavy",
+    "meltdownMat": "Falmer",
+    "temperMat": "Falmer",
+    "nameBindings": [
+      "ArmorFalmerHeavy",
+      "ArmorFAlmerHeavy",
+      "DLC1ArmorShellbugHelmet"
+    ]
+  },
+  "ForswornLow": {
+    "armorBase": 24,
+    "type": "Light",
+    "meltdownMat": "Leather",
+    "temperMat": "Leather",
+    "nameBindings": [
+      "MS02Forsworn"
+    ]
+  },
+  "Forsworn": {
+    "armorBase": 25,
+    "type": "Light",
+    "meltdownMat": "Leather",
+    "temperMat": "Leather",
+    "nameBindings": []
+  },
+  "ForswornHigh": {
+    "armorBase": 26,
+    "type": "Light",
+    "meltdownMat": "Leather",
+    "temperMat": "Leather",
+    "nameBindings": []
+  },
+  "ForswornHeavy": {
+    "armorBase": 39,
+    "type": "Heavy",
+    "meltdownMat": "Leather",
+    "temperMat": "Leather",
+    "nameBindings": []
+  },
+  "FurLow": {
+    "armorBase": 9,
+    "type": "Light",
+    "meltdownMat": "Fur",
+    "temperMat": "Fur",
+    "nameBindings": []
+  },
+  "Fur": {
+    "armorBase": 10,
+    "type": "Light",
+    "meltdownMat": "Fur",
+    "temperMat": "Fur",
+    "nameBindings": [
+      "ArmorBandit",
+      "ArmorStormcloakBoots",
+      "ArmorStormcloakGauntlets"
+    ]
+  },
+  "FurHigh": {
+    "armorBase": 11,
+    "type": "Light",
+    "meltdownMat": "Fur",
+    "temperMat": "Fur",
+    "nameBindings": []
+  },
+  "FurHeavy": {
+    "armorBase": 23,
+    "type": "Heavy",
+    "meltdownMat": "Fur",
+    "temperMat": "Fur",
+    "nameBindings": []
+  },
+  "GlassLow": {
+    "armorBase": 31,
+    "type": "Light",
+    "meltdownMat": "Glass",
+    "temperMat": "Glass",
+    "nameBindings": []
+  },
+  "Glass": {
+    "armorBase": 32,
+    "type": "Light",
+    "meltdownMat": "Glass",
+    "temperMat": "Glass",
+    "nameBindings": [
+      "DLC1ReflectingShield",
+      "ArmorGlass"
+    ]
+  },
+  "GlassHigh": {
+    "armorBase": 33,
+    "type": "Light",
+    "meltdownMat": "Glass",
+    "temperMat": "Glass",
+    "nameBindings": [
+      "ArmorDragonPriestMaskMarbleHelmet"
+    ]
+  },
+  "GlassHeavy": {
+    "armorBase": 47,
+    "type": "Light",
+    "meltdownMat": "Glass",
+    "temperMat": "Glass",
+    "nameBindings": []
+  },
+  "GoldLow": {
+    "armorBase": 23,
+    "type": "Light",
+    "meltdownMat": "Gold",
+    "temperMat": "Gold",
+    "nameBindings": []
+  },
+  "Gold": {
+    "armorBase": 24,
+    "type": "Light",
+    "meltdownMat": "Gold",
+    "temperMat": "Gold",
+    "nameBindings": []
+  },
+  "GoldHigh": {
+    "armorBase": 25,
+    "type": "Light",
+    "meltdownMat": "Gold",
+    "temperMat": "Gold",
+    "nameBindings": []
+  },
+  "GoldHeavy": {
+    "armorBase": 30,
+    "type": "Heavy",
+    "meltdownMat": "Gold",
+    "temperMat": "Gold",
+    "nameBindings": []
+  },
+  "HideLow": {
+    "armorBase": 11,
+    "type": "Light",
+    "meltdownMat": "Fur",
+    "temperMat": "Fur",
+    "nameBindings": []
+  },
+  "Hide": {
+    "armorBase": 12,
+    "type": "Light",
+    "meltdownMat": "Fur",
+    "temperMat": "Fur",
+    "nameBindings": [
+      "ArmorHide",
+      "dunDeepwoodBoots"
+    ]
+  },
+  "HideHigh": {
+    "armorBase": 13,
+    "type": "Light",
+    "meltdownMat": "Fur",
+    "temperMat": "Fur",
+    "nameBindings": []
+  },
+  "HideHeavy": {
+    "armorBase": 30,
+    "type": "Heavy",
+    "meltdownMat": "Fur",
+    "temperMat": "Fur",
+    "nameBindings": []
+  },
+  "HorkerL": {
+    "armorBase": 15,
+    "type": "Light",
+    "meltdownMat": "Bonemeal",
+    "temperMat": "Bonemeal",
+    "nameBindings": []
+  },
+  "HorkerLH": {
+    "armorBase": 20,
+    "type": "Light",
+    "meltdownMat": "Bonemeal",
+    "temperMat": "Bonemeal",
+    "nameBindings": []
+  },
+  "HorkerH": {
+    "armorBase": 24,
+    "type": "Heavy",
+    "meltdownMat": "Bonemeal",
+    "temperMat": "Bonemeal",
+    "nameBindings": []
+  },
+  "HorkerHH": {
+    "armorBase": 32,
+    "type": "Heavy",
+    "meltdownMat": "Bonemeal",
+    "temperMat": "Bonemeal",
+    "nameBindings": []
+  },
+  "IronLight": {
+    "armorBase": 14,
+    "type": "Light",
+    "meltdownMat": "Iron",
+    "temperMat": "Iron",
+    "nameBindings": []
+  },
+  "IronLow": {
+    "armorBase": 22,
+    "type": "Heavy",
+    "meltdownMat": "Iron",
+    "temperMat": "Iron",
+    "nameBindings": []
+  },
+  "Iron": {
+    "armorBase": 23,
+    "type": "Heavy",
+    "meltdownMat": "Iron",
+    "temperMat": "Iron",
+    "nameBindings": [
+      "ArmorIronGauntlets",
+      "ArmorIronCuirass",
+      "ArmorIronBoots",
+      "ArmorIronHelmet",
+      "ArmorIronShield"
+    ]
+  },
+  "IronHigh": {
+    "armorBase": 24,
+    "type": "Heavy",
+    "meltdownMat": "Iron",
+    "temperMat": "Iron",
+    "nameBindings": [
+      "ArmorIronBanded",
+      "FavorOrcsGauntlets"
+    ]
+  },
+  "LeatherLow": {
+    "armorBase": 13,
+    "type": "Light",
+    "meltdownMat": "Leather",
+    "temperMat": "Leather",
+    "nameBindings": []
+  },
+  "Leather": {
+    "armorBase": 14,
+    "type": "Light",
+    "meltdownMat": "Leather",
+    "temperMat": "Leather",
+    "nameBindings": [
+      "ArmorLeather",
+      "ArmorThievesGuildKarliah",
+      "ArmorTsun",
+      "xMASNEArmorDarkCowl"
+    ]
+  },
+  "LeatherHigh": {
+    "armorBase": 15,
+    "type": "Light",
+    "meltdownMat": "Leather",
+    "temperMat": "Leather",
+    "nameBindings": []
+  },
+  "LeatherHeavy": {
+    "armorBase": 33,
+    "type": "Heavy",
+    "meltdownMat": "Leather",
+    "temperMat": "Leather",
+    "nameBindings": []
+  },
+  "None": {
+    "armorBase": 5,
+    "type": "Clothing",
+    "meltdownMat": "None",
+    "temperMat": "None",
+    "nameBindings": []
+  },
+  "Bound": {
+    "armorBase": 41,
+    "type": "Clothing",
+    "meltdownMat": "None",
+    "temperMat": "None",
+    "nameBindings": []
+  },
+  "Ancient NordL": {
+    "armorBase": 14,
+    "type": "Light",
+    "meltdownMat": "Iron",
+    "temperMat": "Iron",
+    "nameBindings": []
+  },
+  "Ancient Nord": {
+    "armorBase": 23,
+    "type": "Heavy",
+    "meltdownMat": "Iron",
+    "temperMat": "Iron",
+    "nameBindings": [
+      "ArmorDraugr"
+    ]
+  },
+  "LNordicLow": {
+    "armorBase": 26,
+    "type": "Light",
+    "meltdownMat": "Nordic",
+    "temperMat": "Nordic",
+    "nameBindings": []
+  },
+  "LNordic": {
+    "armorBase": 27,
+    "type": "Light",
+    "meltdownMat": "Nordic",
+    "temperMat": "Nordic",
+    "nameBindings": []
+  },
+  "LNordicHigh": {
+    "armorBase": 28,
+    "type": "Light",
+    "meltdownMat": "Nordic",
+    "temperMat": "Nordic",
+    "nameBindings": []
+  },
+  "NordSteel": {
+    "armorBase": 31,
+    "type": "Heavy",
+    "meltdownMat": "Nordic",
+    "temperMat": "Nordic",
+    "nameBindings": []
+  },
+  "HNordicLow": {
+    "armorBase": 42,
+    "type": "Heavy",
+    "meltdownMat": "Nordic",
+    "temperMat": "Nordic",
+    "nameBindings": []
+  },
+  "HNordic": {
+    "armorBase": 43,
+    "type": "Heavy",
+    "meltdownMat": "Nordic",
+    "temperMat": "Nordic",
+    "nameBindings": [
+      "DLC2ArmorNordic",
+      "DLC2EnchArmorNordic"
+    ]
+  },
+  "HNordicHigh": {
+    "armorBase": 44,
+    "type": "Heavy",
+    "meltdownMat": "Nordic",
+    "temperMat": "Nordic",
+    "nameBindings": [
+      "ArmorShieldofYsgramor"
+    ]
+  },
+  "OrcishLight": {
+    "armorBase": 29,
+    "type": "Light",
+    "meltdownMat": "Orcish",
+    "temperMat": "Orcish",
+    "nameBindings": []
+  },
+  "OrcishLow": {
+    "armorBase": 43,
+    "type": "Heavy",
+    "meltdownMat": "Orcish",
+    "temperMat": "Orcish",
+    "nameBindings": []
+  },
+  "Orcish": {
+    "armorBase": 44,
+    "type": "Heavy",
+    "meltdownMat": "Orcish",
+    "temperMat": "Orcish",
+    "nameBindings": [
+      "ArmorOrcish"
+    ]
+  },
+  "OrcishHigh": {
+    "armorBase": 45,
+    "type": "Heavy",
+    "meltdownMat": "Orcish",
+    "temperMat": "Orcish",
+    "nameBindings": []
+  },
+  "ScaledLow": {
+    "armorBase": 28,
+    "type": "Light",
+    "meltdownMat": "Scaled",
+    "temperMat": "Scaled",
+    "nameBindings": []
+  },
+  "Scaled": {
+    "armorBase": 29,
+    "type": "Light",
+    "meltdownMat": "Scaled",
+    "temperMat": "Scaled",
+    "nameBindings": [
+      "DA05SaviorsHide",
+      "ArmorScaled"
+    ]
+  },
+  "ScaledHigh": {
+    "armorBase": 30,
+    "type": "Light",
+    "meltdownMat": "Scaled",
+    "temperMat": "Scaled",
+    "nameBindings": [
+      "ArmorDragonPriestMaskCorondrumHelmet"
+    ]
+  },
+  "ScaledHeavy": {
+    "armorBase": 44,
+    "type": "Heavy",
+    "meltdownMat": "Scaled",
+    "temperMat": "Scaled",
+    "nameBindings": []
+  },
+  "LStalhrimLow": {
+    "armorBase": 34,
+    "type": "Light",
+    "meltdownMat": "Stalhrim_Light",
+    "temperMat": "Stalhrim_Light",
+    "nameBindings": []
+  },
+  "LStalhrim": {
+    "armorBase": 35,
+    "type": "Light",
+    "meltdownMat": "Stalhrim_Light",
+    "temperMat": "Stalhrim_Light",
+    "nameBindings": [
+      "DLC2ArmorStalhrimLight",
+      "DLC2EnchArmorStalhrimLight",
+      "DLC2dunHaknirArmor"
+    ]
+  },
+  "LStalhrimHigh": {
+    "armorBase": 36,
+    "type": "Light",
+    "meltdownMat": "Stalhrim_Light",
+    "temperMat": "Stalhrim_Light",
+    "nameBindings": [
+      "DLC2AcolyteMaskFrost"
+    ]
+  },
+  "HStalhrimLow": {
+    "armorBase": 54,
+    "type": "Heavy",
+    "meltdownMat": "Stalhrim_Heavy",
+    "temperMat": "Stalhrim_Heavy",
+    "nameBindings": []
+  },
+  "HStalhrim": {
+    "armorBase": 55,
+    "type": "Heavy",
+    "meltdownMat": "Stalhrim_Heavy",
+    "temperMat": "Stalhrim_Heavy",
+    "nameBindings": [
+      "DLC2ArmorStalhrimHeavy",
+      "DLC2EnchArmorStalhrimHeavy"
+    ]
+  },
+  "HStalhrimHigh": {
+    "armorBase": 56,
+    "type": "Heavy",
+    "meltdownMat": "Stalhrim_Heavy",
+    "temperMat": "Stalhrim_Heavy",
+    "nameBindings": []
+  },
+  "SteelLight": {
+    "armorBase": 16,
+    "type": "Light",
+    "meltdownMat": "Steel",
+    "temperMat": "Steel",
+    "nameBindings": []
+  },
+  "SteelLow": {
+    "armorBase": 29,
+    "type": "Heavy",
+    "meltdownMat": "Steel",
+    "temperMat": "Steel",
+    "nameBindings": []
+  },
+  "Steel": {
+    "armorBase": 30,
+    "type": "Heavy",
+    "meltdownMat": "Steel",
+    "temperMat": "Steel",
+    "nameBindings": [
+      "ArmorSteelBoots",
+      "ArmorSteelGauntlets",
+      "ArmorSteelCuirass",
+      "ArmorSteelShield",
+      "ArmorSteelHelmet",
+      "dunWhiteRiverWatchGauntlets"
+    ]
+  },
+  "SteelHigh": {
+    "armorBase": 31,
+    "type": "Heavy",
+    "meltdownMat": "Steel",
+    "temperMat": "Steel",
+    "nameBindings": [
+      "ArmorDragonPriestMaskSteelHelmet"
+    ]
+  },
+  "SteelHeavy": {
+    "armorBase": 37,
+    "type": "Heavy",
+    "meltdownMat": "Steel",
+    "temperMat": "Steel",
+    "nameBindings": []
+  },
+  "Steel PlateLight": {
+    "armorBase": 29,
+    "type": "Light",
+    "meltdownMat": "Steelplate",
+    "temperMat": "Steelplate",
+    "nameBindings": []
+  },
+  "Steel PlateLow": {
+    "armorBase": 40,
+    "type": "Heavy",
+    "meltdownMat": "Steelplate",
+    "temperMat": "Steelplate",
+    "nameBindings": [
+      "ArmorSteelPlate"
+    ]
+  },
+  "Steel Plate": {
+    "armorBase": 41,
+    "type": "Heavy",
+    "meltdownMat": "Steelplate",
+    "temperMat": "Steelplate",
+    "nameBindings": [
+      "ArmorSteelPlate"
+    ]
+  },
+  "Steel PlateHigh": {
+    "armorBase": 42,
+    "type": "Heavy",
+    "meltdownMat": "Steelplate",
+    "temperMat": "Steelplate",
+    "nameBindings": []
+  },
+  "StuddedLow": {
+    "armorBase": 17,
+    "type": "Light",
+    "meltdownMat": "Leather",
+    "temperMat": "Leather",
+    "nameBindings": []
+  },
+  "Studded": {
+    "armorBase": 18,
+    "type": "Light",
+    "meltdownMat": "Leather",
+    "temperMat": "Leather",
+    "nameBindings": []
+  },
+  "StuddedHigh": {
+    "armorBase": 19,
+    "type": "Light",
+    "meltdownMat": "Leather",
+    "temperMat": "Leather",
+    "nameBindings": []
+  },
+  "StuddedHeavy": {
+    "armorBase": 35,
+    "type": "Heavy",
+    "meltdownMat": "Leather",
+    "temperMat": "Leather",
+    "nameBindings": []
+  },
+  "SilverLow": {
+    "armorBase": 23,
+    "type": "Light",
+    "meltdownMat": "Silver",
+    "temperMat": "Silver",
+    "nameBindings": []
+  },
+  "Silver": {
+    "armorBase": 24,
+    "type": "Light",
+    "meltdownMat": "Silver",
+    "temperMat": "Silver",
+    "nameBindings": []
+  },
+  "SilverHigh": {
+    "armorBase": 25,
+    "type": "Light",
+    "meltdownMat": "Silver",
+    "temperMat": "Silver",
+    "nameBindings": []
+  },
+  "SilverHeavy": {
+    "armorBase": 30,
+    "type": "Heavy",
+    "meltdownMat": "Silver",
+    "temperMat": "Silver",
+    "nameBindings": []
+  },
+  "Vampire": {
+    "armorBase": 25,
+    "type": "Light",
+    "meltdownMat": "Leather",
+    "temperMat": "Leather",
+    "nameBindings": [
+      "DLC1ArmorVampireArmorGray",
+      "DLC1ArmorVampireArmorRed",
+      "DLC1ArmorVampireBoots",
+      "DLC1ArmorVampireGauntlets"
+    ]
+  },
+  "Vampire Royal": {
+    "armorBase": 30,
+    "type": "Light",
+    "meltdownMat": "Leather",
+    "temperMat": "Leather",
+    "nameBindings": [
+      "DLC1ArmorVampireArmorRoyalRed",
+      "DLC1ArmorVampireArmorValerica"
+    ]
+  },
+  "Wood": {
+    "armorBase": 10,
+    "type": "Light",
+    "meltdownMat": "Wood",
+    "temperMat": "Wood",
+    "nameBindings": [
+      "ArmorDragonPriestMaskWoodHelmet"
+    ]
+  },
+  "Wood_Iron": {
+    "armorBase": 15,
+    "type": "Heavy",
+    "meltdownMat": "Iron",
+    "temperMat": "Iron",
+    "nameBindings": []
+  }
+}
