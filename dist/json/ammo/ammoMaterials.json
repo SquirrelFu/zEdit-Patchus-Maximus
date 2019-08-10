@@ -1,0 +1,547 @@
+{
+  "Practice": {
+    "damageMod": -5,
+    "rangeMod": 0,
+    "speedMod": 0,
+    "gravityMod": 0,
+    "mult": false,
+    "nameBindings": [
+      "Practice"
+    ]
+  },
+  "Wood": {
+    "damageMod": 0,
+    "rangeMod": 0,
+    "speedMod": 10,
+    "gravityMod": 0.01,
+    "mult": true,
+    "nameBindings": [
+      "Bone",
+      "Wood",
+      "Wooden"
+    ]
+  },
+  "WoodNoMult": {
+    "damageMod": 0,
+    "rangeMod": 0,
+    "speedMod": 10,
+    "gravityMod": 0.01,
+    "mult": false,
+    "nameBindings": [
+      "Riekling",
+      "Stone",
+      "Torch",
+      "Fire",
+      "Noisemaker",
+      "Oil",
+      "Rope",
+      "Water",
+      "Mudcrab"
+    ]
+  },
+  "WoodH": {
+    "damageMod": 2,
+    "rangeMod": 0,
+    "speedMod": 10,
+    "gravityMod": 0.02,
+    "mult": true,
+    "nameBindings": []
+  },
+  "Forsworn": {
+    "damageMod": 3,
+    "rangeMod": 0,
+    "speedMod": 15,
+    "gravityMod": 0.03,
+    "mult": true,
+    "nameBindings": [
+      "Forsworn"
+    ]
+  },
+  "ForswornNoMult": {
+    "damageMod": 3,
+    "rangeMod": 0,
+    "speedMod": 15,
+    "gravityMod": 0.03,
+    "mult": false,
+    "nameBindings": []
+  },
+  "Falmer": {
+    "damageMod": 4,
+    "rangeMod": 0,
+    "speedMod": 20,
+    "gravityMod": 0.04,
+    "mult": true,
+    "nameBindings": [
+      "Falmer",
+      "Wolf"
+    ]
+  },
+  "FalmerNoMult": {
+    "damageMod": 4,
+    "rangeMod": 0,
+    "speedMod": 20,
+    "gravityMod": 0.04,
+    "mult": false,
+    "nameBindings": []
+  },
+  "FalmerH": {
+    "damageMod": 5,
+    "rangeMod": 0,
+    "speedMod": 20,
+    "gravityMod": 0.05,
+    "mult": true,
+    "nameBindings": [
+      "Falmer Honed",
+      "Horker Honed"
+    ]
+  },
+  "Ancient Nord": {
+    "damageMod": 2,
+    "rangeMod": 0,
+    "speedMod": 25,
+    "gravityMod": 0.02,
+    "mult": true,
+    "nameBindings": [
+      "Ancient Nord"
+    ]
+  },
+  "Ancient NordNoMult": {
+    "damageMod": 2,
+    "rangeMod": 0,
+    "speedMod": 25,
+    "gravityMod": 0.02,
+    "mult": false,
+    "nameBindings": []
+  },
+  "Elven": {
+    "damageMod": 7,
+    "rangeMod": 0,
+    "speedMod": 30,
+    "gravityMod": 0.06,
+    "mult": true,
+    "nameBindings": [
+      "Bosmer",
+      "Elven",
+      "Scoia'tael",
+      "Justiciar",
+      "Dariit",
+      "Seeker",
+      "Spriggan"
+    ]
+  },
+  "ElvenNoMult": {
+    "damageMod": 7,
+    "rangeMod": 0,
+    "speedMod": 30,
+    "gravityMod": 0.06,
+    "mult": false,
+    "nameBindings": [
+      "Bloodcursed",
+      "Sunhallowed"
+    ]
+  },
+  "Noldor": {
+    "damageMod": 7.5,
+    "rangeMod": 0,
+    "speedMod": 30,
+    "gravityMod": 0.06,
+    "mult": true,
+    "nameBindings": [
+      "Noldor"
+    ]
+  },
+  "Corundum": {
+    "damageMod": 8,
+    "rangeMod": 0,
+    "speedMod": 35,
+    "gravityMod": 0.08,
+    "mult": true,
+    "nameBindings": [
+      "Corundum"
+    ]
+  },
+  "CorundumNoMult": {
+    "damageMod": 8,
+    "rangeMod": 0,
+    "speedMod": 35,
+    "gravityMod": 0.08,
+    "mult": false,
+    "nameBindings": []
+  },
+  "Nordic": {
+    "damageMod": 8,
+    "rangeMod": 0,
+    "speedMod": 35,
+    "gravityMod": 0.08,
+    "mult": true,
+    "nameBindings": [
+      "Nordic"
+    ]
+  },
+  "NordicNoMult": {
+    "damageMod": 8,
+    "rangeMod": 0,
+    "speedMod": 35,
+    "gravityMod": 0.08,
+    "mult": false,
+    "nameBindings": [
+      "VanNord"
+    ]
+  },
+  "Glass": {
+    "damageMod": 10,
+    "rangeMod": 0,
+    "speedMod": 40,
+    "gravityMod": 0.1,
+    "mult": true,
+    "nameBindings": [
+      "Glass",
+      "Mephala",
+      "Ruby"
+    ]
+  },
+  "GlassNoMult": {
+    "damageMod": 10,
+    "rangeMod": 0,
+    "speedMod": 40,
+    "gravityMod": 0.1,
+    "mult": false,
+    "nameBindings": []
+  },
+  "Dragonscale": {
+    "damageMod": 13,
+    "rangeMod": 0,
+    "speedMod": 50,
+    "gravityMod": 0.13,
+    "mult": true,
+    "nameBindings": [
+      "Dragonscale"
+    ]
+  },
+  "DragonscaleNoMult": {
+    "damageMod": 13,
+    "rangeMod": 0,
+    "speedMod": 50,
+    "gravityMod": 0.13,
+    "mult": true,
+    "nameBindings": []
+  },
+  "RNoldor": {
+    "damageMod": 13.5,
+    "rangeMod": 0,
+    "speedMod": 50,
+    "gravityMod": 0.13,
+    "mult": true,
+    "nameBindings": [
+      "Royal Noldor"
+    ]
+  },
+  "Ancient Falmer": {
+    "damageMod": 9,
+    "rangeMod": 0,
+    "speedMod": 35,
+    "gravityMod": 0.09,
+    "mult": true,
+    "nameBindings": []
+  },
+  "Iron": {
+    "damageMod": 1,
+    "rangeMod": 0,
+    "speedMod": -5,
+    "gravityMod": 0.01,
+    "mult": true,
+    "nameBindings": [
+      "Horker",
+      "Iron",
+      "Rusty",
+      "Long Bow Arrow"
+    ]
+  },
+  "IronNoMult": {
+    "damageMod": 1,
+    "rangeMod": 0,
+    "speedMod": -5,
+    "gravityMod": 0.01,
+    "mult": false,
+    "nameBindings": []
+  },
+  "Steel": {
+    "damageMod": 2,
+    "rangeMod": 0,
+    "speedMod": -10,
+    "gravityMod": 0.02,
+    "mult": true,
+    "nameBindings": [
+      "Steel",
+      "Paladin",
+      "Bandit",
+      "Breton Knight",
+      "Breton Knighl",
+      "Arrow of Extrication",
+      "Gondorian"
+    ]
+  },
+  "SteelNoMult": {
+    "damageMod": 2,
+    "rangeMod": 0,
+    "speedMod": -10,
+    "gravityMod": 0.02,
+    "mult": false,
+    "nameBindings": [
+      "Flaming Arrows",
+      "Flaming Bolt",
+      "Frost Arrows",
+      "Shock Arrows",
+      "Quake Arrows",
+      "Swarm Arrows",
+      "Gem Arrows",
+      "Gem Bolts",
+      "Gust Arrows",
+      "Ash Rock Arrows",
+      "Crimson Flame Arrows",
+      "Cobalt Frost Arrows",
+      "Thunderbolt Arrows",
+      "Magebreaker Arrows",
+      "Trick Arrows"
+    ]
+  },
+  "Silver": {
+    "damageMod": 2,
+    "rangeMod": 0,
+    "speedMod": 5,
+    "gravityMod": 0.02,
+    "mult": true,
+    "nameBindings": [
+      "Silver"
+    ]
+  },
+  "SilverNoMult": {
+    "damageMod": 2,
+    "rangeMod": 0,
+    "speedMod": 5,
+    "gravityMod": 0.02,
+    "mult": false,
+    "nameBindings": []
+  },
+  "Skyforge": {
+    "damageMod": 4.5,
+    "rangeMod": 0,
+    "speedMod": -15,
+    "gravityMod": 0.04,
+    "mult": true,
+    "nameBindings": [
+      "Skyforge"
+    ]
+  },
+  "SkyforgeNoMult": {
+    "damageMod": 4.5,
+    "rangeMod": 0,
+    "speedMod": -15,
+    "gravityMod": 0.04,
+    "mult": false,
+    "nameBindings": []
+  },
+  "Dwarven": {
+    "damageMod": 6,
+    "rangeMod": 0,
+    "speedMod": -20,
+    "gravityMod": 0.06,
+    "mult": true,
+    "nameBindings": [
+      "Dwarven",
+      "Aetherial Rifle Bolt",
+      "Gold",
+      "Blades"
+    ]
+  },
+  "DwarvenNoMult": {
+    "damageMod": 6,
+    "rangeMod": 0,
+    "speedMod": -20,
+    "gravityMod": 0.06,
+    "mult": false,
+    "nameBindings": []
+  },
+  "Orcish": {
+    "damageMod": 9,
+    "rangeMod": 0,
+    "speedMod": -25,
+    "gravityMod": 0.09,
+    "mult": true,
+    "nameBindings": [
+      "Orcish",
+      "An-Xileel",
+      "Troll"
+    ]
+  },
+  "OrcishNoMult": {
+    "damageMod": 9,
+    "rangeMod": 0,
+    "speedMod": -25,
+    "gravityMod": 0.09,
+    "mult": false,
+    "nameBindings": []
+  },
+  "NordHero": {
+    "damageMod": 10,
+    "rangeMod": 0,
+    "speedMod": -30,
+    "gravityMod": 0.1,
+    "mult": true,
+    "nameBindings": [
+      "Nord Hero"
+    ]
+  },
+  "NordHeroNoMult": {
+    "damageMod": 10,
+    "rangeMod": 0,
+    "speedMod": -30,
+    "gravityMod": 0.1,
+    "mult": false,
+    "nameBindings": []
+  },
+  "Ebony": {
+    "damageMod": 11,
+    "rangeMod": 0,
+    "speedMod": -35,
+    "gravityMod": 0.11,
+    "mult": true,
+    "nameBindings": [
+      "Ebony",
+      "Black Sacrament",
+      "Exotic Arrow",
+      "Dark Brotherhood",
+      "Thieves",
+      "Sapphire",
+      "Diamond",
+      "Black Dragon"
+    ]
+  },
+  "EbonyNoMult": {
+    "damageMod": 11,
+    "rangeMod": 0,
+    "speedMod": -35,
+    "gravityMod": 0.11,
+    "mult": false,
+    "nameBindings": []
+  },
+  "Stalhrim": {
+    "damageMod": 12,
+    "rangeMod": 0,
+    "speedMod": -40,
+    "gravityMod": 0.12,
+    "mult": true,
+    "nameBindings": [
+      "Stalhrim"
+    ]
+  },
+  "StalhrimNoMult": {
+    "damageMod": 12,
+    "rangeMod": 0,
+    "speedMod": -40,
+    "gravityMod": 0.12,
+    "mult": false,
+    "nameBindings": []
+  },
+  "Dragonbone": {
+    "damageMod": 14,
+    "rangeMod": 0,
+    "speedMod": -45,
+    "gravityMod": 0.14,
+    "mult": true,
+    "nameBindings": [
+      "Dragonsteel",
+      "Dragonbone",
+      "Dovahkiin"
+    ]
+  },
+  "DragonboneNoMult": {
+    "damageMod": 14,
+    "rangeMod": 0,
+    "speedMod": -45,
+    "gravityMod": 0.14,
+    "mult": false,
+    "nameBindings": []
+  },
+  "Bound": {
+    "damageMod": 15,
+    "rangeMod": 0,
+    "speedMod": 0,
+    "gravityMod": 0,
+    "mult": false,
+    "nameBindings": [
+      "Bound"
+    ]
+  },
+  "Daedric": {
+    "damageMod": 15,
+    "rangeMod": 0,
+    "speedMod": -50,
+    "gravityMod": 0.15,
+    "mult": true,
+    "nameBindings": [
+      "Daedric",
+      "Cynder"
+    ]
+  },
+  "DaedricNoMult": {
+    "damageMod": 15,
+    "rangeMod": 0,
+    "speedMod": -50,
+    "gravityMod": 0.15,
+    "mult": false,
+    "nameBindings": [
+      "Mystic Elven"
+    ]
+  },
+  "Crude": {
+    "damageMod": -1,
+    "rangeMod": 0,
+    "speedMod": 10,
+    "gravityMod": 0.01,
+    "mult": true,
+    "nameBindings": [
+      "Crude Bone"
+    ]
+  },
+  "Honed": {
+    "damageMod": 3,
+    "rangeMod": 0,
+    "speedMod": 20,
+    "gravityMod": 0.02,
+    "mult": true,
+    "nameBindings": [
+     "Honed Bone"
+    ]
+  },
+  "Stalker": {
+    "damageMod": 5,
+    "rangeMod": -100,
+    "speedMod": 30,
+    "gravityMod": 0.03,
+    "mult": true,
+    "nameBindings": [
+      "Stalker's Bone"
+    ]
+  },
+  "Perfect": {
+    "damageMod": 7,
+    "rangeMod": 0,
+    "speedMod": 40,
+    "gravityMod": 0.04,
+    "mult": true,
+    "nameBindings": [
+      "Perfect Bone"
+    ]
+  },
+  "Steam": {
+    "damageMod": 57,
+    "rangeMod": 0,
+    "speedMod": 180,
+    "gravityMod": 0.4,
+    "mult": false,
+    "nameBindings": [
+      "Steam Arrows"
+    ]
+  }
+}

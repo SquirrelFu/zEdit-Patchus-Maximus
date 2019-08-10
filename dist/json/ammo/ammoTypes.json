@@ -1,0 +1,32 @@
+{
+  "Standard Arrow": {
+    "type": "ARROW",
+    "damageBase": 13,
+    "rangeBase": 60000,
+    "speedBase": 4900,
+    "gravityBase": 0.3,
+    "nameBindings": [
+      "Arrow"
+    ]
+  },
+  "Standard Bolt": {
+    "type": "BOLT",
+    "damageBase": 17,
+    "rangeBase": 80000,
+    "speedBase": 5500,
+    "gravityBase": 0.05,
+    "nameBindings": [
+      "Bolt"
+    ]
+  },
+  "Standard Javelin": {
+    "type": "ARROW",
+    "damageBase": 20,
+    "rangeBase": 20000,
+    "speedBase": 2400,
+    "gravityBase": 1,
+    "nameBindings": [
+      "Javelin"
+    ]
+  }
+}

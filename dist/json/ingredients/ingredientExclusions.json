@@ -1,9 +1,11 @@
 {
-  "id":[
+  "id": [
     "HISAnimalBloodLarge",
     "LCSDragonEggBlue",
     "LCSDragonEggRedd",
-    "LCSDragonEggGrenn",
+    "LCSDragonEggGrenn"
+  ],
+  "idpartials": [
     "Volundr"
   ]
 }

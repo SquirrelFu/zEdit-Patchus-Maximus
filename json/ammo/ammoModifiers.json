@@ -1,0 +1,126 @@
+{
+  "Strong": {
+    "damageMod": 4,
+    "rangeMod": 0,
+    "speedMod": -20,
+    "gravityMod": 0.03,
+    "nameBindings": [
+      "Strong"
+    ]
+  },
+  "Strongest": {
+    "damageMod": 8,
+    "rangeMod": 0,
+    "speedMod": -30,
+    "gravityMod": 0.05,
+    "nameBindings": [
+      "Strongest"
+    ]
+  },
+  "Poisoned": {
+    "damageMod": 0,
+    "rangeMod": 0,
+    "speedMod": -10,
+    "gravityMod": 0.02,
+    "nameBindings": [
+      "Poisoned"
+    ]
+  },
+  "Fire": {
+    "damageMod": 0,
+    "rangeMod": 0,
+    "speedMod": -10,
+    "gravityMod": 0.02,
+    "nameBindings": [
+      "Fire"
+    ]
+  },
+  "Frost": {
+    "damageMod": 0,
+    "rangeMod": 0,
+    "speedMod": -10,
+    "gravityMod": 0.02,
+    "nameBindings": [
+      "Frost"
+    ]
+  },
+  "Shock": {
+    "damageMod": 0,
+    "rangeMod": 0,
+    "speedMod": -10,
+    "gravityMod": 0.02,
+    "nameBindings": [
+      "Shock"
+    ]
+  },
+  "Barbed": {
+    "damageMod": 2,
+    "rangeMod": 0,
+    "speedMod": 10,
+    "gravityMod": 0.02,
+    "nameBindings": [
+      "Barbed"
+    ]
+  },
+  "Explosive": {
+    "damageMod": -3,
+    "rangeMod": 0,
+    "speedMod": -50,
+    "gravityMod": 0.2,
+    "nameBindings": [
+      "Explosive"
+    ]
+  },
+  "Timebomb": {
+    "damageMod": -5,
+    "rangeMod": 0,
+    "speedMod": -50,
+    "gravityMod": 0.2,
+    "nameBindings": [
+      "Timebomb"
+    ]
+  },
+  "Lightsource": {
+    "damageMod": -5,
+    "rangeMod": 0,
+    "speedMod": -50,
+    "gravityMod": 0.1,
+    "nameBindings": [
+      "Lightsource"
+    ]
+  },
+  "Noisemaker": {
+    "damageMod": -5,
+    "rangeMod": 0,
+    "speedMod": -20,
+    "gravityMod": 0.1,
+    "nameBindings": [
+      "Noisemaker"
+    ]
+  },
+  "Cruel": {
+    "damageMod": 1,
+    "rangeMod": 25,
+    "speedMod": 75,
+    "gravityMod":0.03,
+    "nameBindings": [
+      "Cruel"
+    ]
+  },
+  "Fletched": {
+    "damageMod": -2,
+    "rangeMod": 0,
+    "speedMod": 0,
+    "gravityMod": 0,
+    "nameBindings": [
+      "Fletched"
+    ]
+  },
+  "Elder": {
+    "damageMod": 2,
+    "rangeMod": 0,
+    "speedMod": 0,
+    "gravityMod": 0,
+    "nameBindings": []
+  }
+}

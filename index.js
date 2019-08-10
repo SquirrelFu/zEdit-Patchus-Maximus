@@ -2,6 +2,8 @@
 
 //=require src/common/utilityMethods.js
 //=require src/subpatchers/alchemyPatcher.js
+//=require src/subpatchers/ingredientPatcher.js
+//=require src/subpatchers/ammoPatcher.js
 
 const getActiveModules = (helpers, locals) => {
     const modulePrefix = "PerkusMaximus_";
@@ -41,7 +43,9 @@ registerPatcher({
       locals.playerRefFormID = '00000014';
     },
     process: [
-      alchemyPatcher(helpers, locals, patchFile)
+      alchemyPatcher(locals, patchFile),
+      ingredientPatcher(locals, patchFile),
+      ammoPatcher(locals, patchFile, helpers),
     ],
   })
 });
