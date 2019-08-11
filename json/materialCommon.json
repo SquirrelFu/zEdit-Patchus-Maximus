@@ -36,10 +36,10 @@
     "temperID": "ChaurusChitin"
   },
   "Orcish": {
-    "meltdownID": "IngorOrichalcum",
+    "meltdownID": "IngotOrichalcum",
     "meltdownStation": "CraftingSmelter",
     "perk": "OrcishSmithing",
-    "temperID": "IngorOrichalcum"
+    "temperID": "IngotOrichalcum"
   },
   "Steelplate": {
     "meltdownID": "IngotSteel",
@@ -96,13 +96,13 @@
     "temperID": "IngotMalachite"
   },
   "Dragonscale": {
-    "meltdownID": "DragonScale",
+    "meltdownID": "DragonScales",
     "meltdownStation": "CraftingSmelter",
     "perk": "DragonArmor",
-    "temperID": "DragonScale"
+    "temperID": "DragonScales"
   },
   "Stalhrim": {
-    "meltdownID": "oreStalhrim",
+    "meltdownID": "DLC2OreStalhrim",
     "meltdownStation": "CraftingSmelter",
     "perk": "EbonySmithing",
     "temperID": "DLC2OreStalhrim"
@@ -129,7 +129,7 @@
     "meltdownID": "DLC2ChitinPlate",
     "meltdownStation": "CraftingSmelter",
     "perk": "AdvancedArmors",
-    "temperID": "DLC2ChitingPlate"
+    "temperID": "DLC2ChitinPlate"
   },
   "Silver": {
     "meltdownID": "IngotSilver",

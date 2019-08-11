@@ -55,7 +55,7 @@ function armorPatcher(patchFile, locals, helpers, settings) {
     let temperPerk = materialCommon[temperMat].perk;
     if (temperItem == null) return;
     let temperRecipe = xelib.AddElement(patchFile, "COBJ\\COBJ");
-    addHasPerk(temperRecipe, temperPerk);
+    if (temperPerk != null) addHasPerk(temperRecipe, temperPerk);
     addRecipeIngredient(temperRecipe, temperItem, "1");
     xelib.AddElementValue(temperRecipe, "CNAM", xelib.EditorID(armor));
     xelib.AddElementValue(temperRecipe, "BNAM", temperStation);
@@ -152,16 +152,19 @@ function armorPatcher(patchFile, locals, helpers, settings) {
     let originalRating = xelib.GetArmorRating(armor);
     let newRating = armorMaterials[mat].armorBase * 100;
     if (xelib.HasKeyword(armor, "ArmorBoots")) {
-      newRating *= settings.defaultsettings.gamesettings.fArmorFactorFeet;
+      newRating *= 1.4;
     }
     else if (xelib.HasKeyword(armor, "ArmorCuirass")) {
-      newRating *= settings.defaultsettings.gamesettings.fArmorFactorBody;
+      newRating *= 3.9;
     }
     else if (xelib.HasKeyword(armor, "ArmorGauntlets")) {
-      newRating *= settings.defaultsettings.gamesettings.fArmorFactorHands;
+      newRating *= 1.4;
     }
     else if (xelib.HasKeyword(armor, "ArmorHelmet")) {
-      newRating *= settings.defaultsettings.gamesettings.fArmorFactorHead;
+      newRating *= 1.9;
+    }
+    else if (xelib.HasKeyword(armor, "ArmorShield")){
+      newRating *= 2.4
     }
     if (originalRating != newRating && newRating != 0) {
       xelib.SetArmorRating(armor, newRating);
@@ -210,7 +213,7 @@ function armorPatcher(patchFile, locals, helpers, settings) {
     if (reforgeItem != null) addRecipeIngredient(reforgeRecipe, reforgeItem, "2");
     addRecipeIngredient(reforgeRecipe, xelib.EditorID(oldArmor), "1");
     addRecipeMinimum(reforgeRecipe, xelib.EditorID(oldArmor));
-    addHasPerk(reforgeRecipe, reforgePerk);
+    if (reforgePerk != null) addHasPerk(reforgeRecipe, reforgePerk);
     addHasPerk(reforgeRecipe, "xMASMIArmorer");
     return reforgeRecipe;
   }
@@ -227,7 +230,7 @@ function armorPatcher(patchFile, locals, helpers, settings) {
     if (warforgeItem != null) addRecipeIngredient(warforgeRecipe, warforgeItem, "5");
     addRecipeIngredient(warforgeRecipe, xelib.EditorID(oldArmor), "1");
     addRecipeMinimum(warforgeRecipe, xelib.EditorID(oldArmor));
-    addHasPerk(warforgeRecipe, warforgePerk);
+    if (warforgePerk != null) addHasPerk(warforgeRecipe, warforgePerk);
     addHasPerk(warforgeRecipe, "xMASMIMasteryWarforged");
     return warforgeRecipe;
   }
@@ -243,7 +246,7 @@ function armorPatcher(patchFile, locals, helpers, settings) {
     if (copyItem != null) addRecipeIngredient(copyRecipe, copyItem, "3");
     addRecipeIngredient(copyRecipe, "xMASMICopycatArtifactEssence", "1");
     addHasPerk(copyRecipe, "xMASMICopycat");
-    addHasPerk(copyRecipe, copyPerk);
+    if (copyPerk != null) addHasPerk(copyRecipe, copyPerk);
     addRecipeMinimum(copyRecipe, xelib.EditorID(source));
     return copyRecipe;
   }
@@ -392,6 +395,7 @@ function armorPatcher(patchFile, locals, helpers, settings) {
       }
     },
     patch: armo => {
+      helpers.logMessage("Patching: " + xelib.FullName(armo) + " with an editorID of " + xelib.EditorID(armo));
       const activeStrings = fh.loadJsonFile(`${patcherPath}/json/lang/strings_en.json`);
       const materialCommon = fh.loadJsonFile(`${patcherPath}/json/materialCommon.json`);
       const armorMaterials = fh.loadJsonFile(`${patcherPath}/json/armor/armorMaterials.json`);
@@ -411,6 +415,7 @@ function armorPatcher(patchFile, locals, helpers, settings) {
       let reforgeVariant = null;
       let warforgeVariant = null;
       if (locals.useWarrior) {
+        setArmorValue(patchArmor, patchMat);
         if (!isArmorReforgeExcluded(patchArmor)) addArmorMeltdownRecipe(patchArmor, patchMat, patchFile);
         if (!isArmorReforgeExcluded(patchArmor) && !xelib.HasKeyword(patchArmor, "ArmorJewelry") && xelib.GetArmorType(patchArmor) != "Clothing") {
           reforgeVariant = makeReforgedArmor(patchArmor, patchMat, patchFile);
