@@ -412,7 +412,7 @@ function ammoPatcher(locals, patchFile, helpers) {
     load: {
       signature: "AMMO",
       filter: ammo => {
-        let isPlayable = !xelib.GetFlag(ammo, "DATA\\Flags", "Non-Playable");
+        let isPlayable = !xelib.GetRecordFlag(ammo, "Non-Playable");
         let nullName = false;
         let isExcluded = false;
         if (xelib.FullName(ammo) == "") nullName = true;

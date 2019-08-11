@@ -1,0 +1,152 @@
+{
+  "Advanced": {
+    "meltdownID": "IngotCorundum",
+    "meltdownStation": "CraftingSmelter",
+    "perk": "AdvancedArmors",
+    "temperID": "IngotCorundum"
+  },
+  "None": {
+    "meltdownID": null,
+    "meltdownStation": null,
+    "perk": null,
+    "temperID": null
+  },
+  "Iron": {
+    "meltdownID": "IngotIron",
+    "meltdownStation": "CraftingSmelter",
+    "perk": null,
+    "temperID": "IngotIron"
+  },
+  "Steel": {
+    "meltdownID": "IngotSteel",
+    "meltdownStation": "CraftingSmelter",
+    "perk": "SteelSmithing",
+    "temperID": "IngotSteel"
+  },
+  "Dwarven": {
+    "meltdownID": "IngotDwarven",
+    "meltdownStation": "CraftingSmelter",
+    "perk": "DwarvenSmithing",
+    "temperID": "IngotDwarven"
+  },
+  "Falmer": {
+    "meltdownID": "ChaurusChitin",
+    "meltdownStation": "CraftingSmelter",
+    "perk": "AdvancedArmors",
+    "temperID": "ChaurusChitin"
+  },
+  "Orcish": {
+    "meltdownID": "IngorOrichalcum",
+    "meltdownStation": "CraftingSmelter",
+    "perk": "OrcishSmithing",
+    "temperID": "IngorOrichalcum"
+  },
+  "Steelplate": {
+    "meltdownID": "IngotSteel",
+    "meltdownStation": "CraftingSmelter",
+    "perk": "AdvancedArmors",
+    "temperID": "IngotSteel"
+  },
+  "Ebony": {
+    "meltdownID": "IngotEbony",
+    "meltdownStation": "CraftingSmelter",
+    "perk": "EbonySmithing",
+    "temperID": "IngotEbony"
+  },
+  "Dragonplate": {
+    "meltdownID": "DragonBone",
+    "meltdownStation": "CraftingSmelter",
+    "perk": "DragonArmor",
+    "temperID": "DragonBone"
+  },
+  "Daedric": {
+    "meltdownID": "IngotEbony",
+    "meltdownStation": "CraftingSmelter",
+    "perk": "DaedricSmithing",
+    "temperID": "IngotEbony"
+  },
+  "Fur": {
+    "meltdownID": "LeatherStrips",
+    "meltdownStation": "CraftingTanningRack",
+    "perk": null,
+    "temperID": "LeatherStrips"
+  },
+  "Leather": {
+    "meltdownID": "LeatherStrips",
+    "meltdownStation": "CraftingTanningRack",
+    "perk": "xMASMIMaterialLeather",
+    "temperID": "LeatherStrips"
+  },
+  "Elven": {
+    "meltdownID": "IngotIMoonstone",
+    "meltdownStation": "CraftingSmelter",
+    "perk": "ElvenSmithing",
+    "temperID": "IngotIMoonstone"
+  },
+  "Scaled": {
+    "meltdownID": "IngotCorundum",
+    "meltdownStation": "CraftingTanningRack",
+    "perk": "AdvancedArmors",
+    "temperID": "IngotCorundum"
+  },
+  "Glass": {
+    "meltdownID": "IngotMalachite",
+    "meltdownStation": "CraftingSmelter",
+    "perk": "GlassSmithing",
+    "temperID": "IngotMalachite"
+  },
+  "Dragonscale": {
+    "meltdownID": "DragonScale",
+    "meltdownStation": "CraftingSmelter",
+    "perk": "DragonArmor",
+    "temperID": "DragonScale"
+  },
+  "Stalhrim": {
+    "meltdownID": "oreStalhrim",
+    "meltdownStation": "CraftingSmelter",
+    "perk": "EbonySmithing",
+    "temperID": "DLC2OreStalhrim"
+  },
+  "NordicLight": {
+    "meltdownID": "IngotCorundum",
+    "meltdownStation": "CraftingSmelter",
+    "perk": "AdvancedArmors",
+    "temperID": "IngotSteel"
+  },
+  "NordicHeavy": {
+    "meltdownID": "IngotQuicksilver",
+    "meltdownStation": "CraftingSmelter",
+    "perk": "AdvancedArmors",
+    "temperID": "IngotQuicksilver"
+  },
+  "Bonemold": {
+    "meltdownID": "BoneMeal",
+    "meltdownStation": "CraftingSmelter",
+    "perk": "AdvancedArmors",
+    "temperID": "BoneMeal"
+  },
+  "Chitin": {
+    "meltdownID": "DLC2ChitinPlate",
+    "meltdownStation": "CraftingSmelter",
+    "perk": "AdvancedArmors",
+    "temperID": "DLC2ChitingPlate"
+  },
+  "Silver": {
+    "meltdownID": "IngotSilver",
+    "meltdownStation": "CraftingSmelter",
+    "perk": "xMASMIMaterialGoldAndSilver",
+    "temperID": "IngotSilver"
+  },
+  "Gold": {
+    "meltdownID": "IngotGold",
+    "meltdownStation": "CraftingSmelter",
+    "perk": "xMASMIMaterialGoldAndSilver",
+    "temperID": "IngotGold"
+  },
+  "Wood": {
+    "meltdownID": "Charcoal",
+    "meltdownStation":"CraftingSmelter",
+    "perk": null,
+    "temperID": "Firewood01"
+  }
+}

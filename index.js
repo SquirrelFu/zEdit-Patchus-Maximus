@@ -4,6 +4,7 @@
 //=require src/subpatchers/alchemyPatcher.js
 //=require src/subpatchers/ingredientPatcher.js
 //=require src/subpatchers/ammoPatcher.js
+//=require src/subpatchers/armorPatcher.js
 
 const getActiveModules = (helpers, locals) => {
     const modulePrefix = "PerkusMaximus_";
@@ -28,10 +29,15 @@ registerPatcher({
     defaultSettings: {
       patchFileName:'PatchusMaximus.esp',
       gameSettings: {
-        fArmorScalingFactor: 0.1,
-        fMaxArmorRating: 90.0,
+        fProtectionPerArmor: 0.1,
+        fMaxProtection: 90.0,
         fArmorRatingMax: 1.75,
-        fArmorRatingPCMax: 1.4
+        fArmorRatingPCMax: 1.4,
+        fArmorFactorBody: 3.9,
+        fArmorFactorFeet: 1.4,
+        fArmorFactorHands: 1.4,
+        fArmorFactorHead: 1.9,
+        fArmorFactorShield: 2.4,
       }
     }
   },
@@ -43,9 +49,10 @@ registerPatcher({
       locals.playerRefFormID = '00000014';
     },
     process: [
-      alchemyPatcher(locals, patchFile),
-      ingredientPatcher(locals, patchFile),
-      ammoPatcher(locals, patchFile, helpers),
+      //alchemyPatcher(locals, patchFile),
+      //ingredientPatcher(locals, patchFile),
+      //ammoPatcher(locals, patchFile, helpers),
+      armorPatcher(patchFile, locals, helpers, settings),
     ],
   })
 });
